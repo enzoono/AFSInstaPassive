@@ -1,0 +1,9 @@
+local args = {
+    [1] = {
+        ["AutoSellPassives"] = {},
+        ["InstantPassive"] = true,
+
+    }
+}
+
+game:GetService("ReplicatedStorage").Remote.SetSettings:FireServer(unpack(args))
